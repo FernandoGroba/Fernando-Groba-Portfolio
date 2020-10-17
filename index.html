@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Google Fonts Poppins -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+  <!-- Google Font Faustina -->
+  <link href="https://fonts.googleapis.com/css2?family=Faustina:ital,wght@1,600&display=swap" rel="stylesheet">
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Material Design Bootstrap -->
@@ -28,7 +30,9 @@
   <div class="container">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">FErUX</a>
+    <a class="navbar-brand logo-font" href="#">FErUX
+      <img src="img/WhatsApp Image 2020-03-13 at 19.32.28.jpeg" class="img-fluid img-rounded img-thumbnail" style="max-width: 128px; min-height: 85px;">
+    </a>
 
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -91,13 +95,13 @@
               <div class="col-md-10">
 
                   <!-- Heading -->
-                  <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">Fernando Groba</h2>
+                  <h2 id="nombre" class="font-weight-bold white-text pt-5 mb-2">Fernando Groba</h2>
 
                   <!-- Divider -->
                   <hr class="hr-light">
 
                   <!-- Description -->
-                  <h4 class="white-text my-4">Actualmente me encuentro desarrollándome como UX/UI Designer & Front end Developer continuamente. Hace un decidí darle un giro profesional a mi vida y embarcarme hacia nuevos horizontes profesionales, tomando el actual contexto como motor del cambio. 
+                  <h4 id="description" class="white-text my-4">Actualmente me encuentro desarrollándome como UX/UI Designer & Front end Developer continuamente. Hace un decidí darle un giro profesional a mi vida y embarcarme hacia nuevos horizontes profesionales, tomando el actual contexto como motor del cambio. 
                     Reinventarse y re descubrirse deberían ser algo que nos propongamos mas seguido.</h4>
                <!--    <button type="button" class="btn btn-outline-white">Read more<i class="fas fa-book ml-2"></i></button> -->
 
@@ -122,6 +126,7 @@
   <div class="container">
     
      <section id="servicios" class="text-center">
+
       <h2 class="mb-5">Servicios</h2>
       <div class="row d-flex justify-content-center mb-4">
         <div class="col-md-8">
@@ -132,7 +137,7 @@
       <div class="row">
 
         <div class="col-md-6 mb-1">
-          <i class="fas fa-laptop-code fa-4x orange-text"></i>
+          <i class="fas fa-laptop-code fa-4x purple-text"></i>
           <h4 class="my-4 font-weight-bold">Front End Developer</h4>
           <p class="grey-text">Desarrollo de paginas y aplicaciones web</p>
         </div>
@@ -140,7 +145,7 @@
        
 
          <div class="col-md-6 mb-1">
-          <i class="fas fa-sitemap fa-4x orange-text"></i>
+          <i class="fas fa-sitemap fa-4x purple-text"></i>
           <h4 class="my-4 font-weight-bold">UX Desing</h4>
           <p class="grey-text">Diseño, prototpado, wireframes, mockups. Experiencias que generan valor en los usuario</p>
         </div> 
@@ -160,7 +165,7 @@
 
           <div class="view overlay z-depth-1-half">
 
-            <img src="img/svg/LOGO-YOLOCAL.png" class="img-fluid" style="min-height: 193.44px;">
+            <img src="img/svg/LOGO-YOLOCAL.png" class="img-fluid" style="min-height: 193.44px">
 
             <a href="https://medium.com/@acatama/yo-local-la-soluci%C3%B3n-para-ayudar-al-comercio-de-barrio-despu%C3%A9s-del-coronavirus-1a1a156f5159">
               <div class="mask rgba-white-slight"></div>
@@ -201,78 +206,92 @@
         </div>
       </div>
 
-      <div class="row">
-         <div class="col-lg-4 col-md-12 mb-4">
+      <!-- <div class="row">
 
-         </div> 
+        <div class="col-lg-4 col-md-12 mb-4">
 
-         <div class="col-lg-4 col-md-6 mb-4">
+          <div class="view overlay z-depth-1-half">
 
-         </div>
+            <img src="img/svg/LOGO-YOLOCAL.png" class="img-fluid" style="min-height: 193.44px">
 
-         <div class="col-lg-4 col-md-12 mb-4">
+            <a href="https://medium.com/@acatama/yo-local-la-soluci%C3%B3n-para-ayudar-al-comercio-de-barrio-despu%C3%A9s-del-coronavirus-1a1a156f5159">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
 
-        </div> 
+          <h4 class="my-4 font-weight-bold">UX Desing</h4>
+          <p class="grey-text">Proyecto de Market Place para comercios locales, en el marco del Challenge Covid-19 by Uxers School</p>
 
-      </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="view overlay z-depth-1-half">
+
+            <img src="img/svg/tenedor viajero.png" class="img-fluid"  style="min-height: 193.44px;">
+
+            <a href="https://www.figma.com/file/X7PFxxOKA9MK4XPBv75diO/Blog-Tenedor-Viajero-Mobil?node-id=0%3A1">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+
+          <h4 class="my-4 font-weight-bold">UI Desing</h4>
+          <p class="grey-text">Práctica de diseño y prototipado en figma de blog de turísmo gastronómico.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="view overlay z-depth-1-half">
+
+            <img src="img/Agencia digital.png" class="img-fluid"style="min-height: 193.44px;">
+
+            <a href="https://fernandogroba.github.io/Agencia-Demo/">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+
+          <h4 class="my-4 font-weight-bold">Front End Developer</h4>
+          <p class="grey-text">Práctica de agencia digital en Bootstrap</p>
+        </div>
+      </div> -->
+
 
     </section>
 
     <hr class="my-5">
 
-  
-
-
-    <section id="contacto">
+   <section id="contacto">
 
        <h2 class="mb-5 font-weight-bold text-center">Contácto</h2>
 
-       <div class="row">
+            <div class="row">
 
            
-
-            
-
-                <!--Grid column-->
                 <div class="col-lg-3 col-md-12 mb-5">
 
-                    <p><i class="fas fa-map fa-3x mr-2 grey-text"></i>Adrogué - Buenos Aires</p>
+                    <p><i class="fas fa-map fa-3x mr-2 purple-text"></i>Adrogué - Buenos Aires</p>
 
                 </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
+                
                 <div class="col-lg-3 col-md-6 mb-5">
 
-                    <p><i class="fas fa-building fa-3x mr-2 grey-text"></i>Lun a Vie de 9:00 a 16:00</p>
-
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-5">
-
-                    <p><i class="fas fa-phone fa-3x mr-2 grey-text"></i>+ 011 63082385</p>
-
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-5">
-
-                  <p><i class="fas fa-envelope fa-3x mr-2 grey-text"></i>+ 011 63082385</p>
-
-              </div>
+                    <p><i class="fas fa-building fa-3x mr-2 purple-text"></i>Lun a Vie de 9:00 a 16:00</p>
 
                 
-                <!--Grid column-->
+                </div>
+               
+                <div class="col-lg-3 col-md-6 mb-5">
 
-              </div>
-              <!--Grid row-->
-              <!--Google map-->
-              
+                    <p><i class="fas fa-phone fa-3x mr-2 purple-text"></i>+ 011 63082385</p>
 
-            </div>
-       </div>
-    </section>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5">
+
+                  <p><i class="fas fa-envelope fa-3x mr-2 purple-text"></i>fergrb.ux@gmail.com</p>
+
+                </div>
+
+             </div>
+  </section>
 
   </div>
 
@@ -381,7 +400,7 @@
   <script>
 
     var scroll = new SmoothScroll('a[href*="#"]',{
-        offset: 95,
+        offset: 107,
         speed: 1200
     });
     

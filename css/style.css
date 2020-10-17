@@ -1,4 +1,4 @@
-html{
+body{
     font-family: 'Poppins', sans-serif;
   }
   
@@ -12,6 +12,11 @@ html{
   }
   
   /* nav */
+
+  .logo-font{
+    font-family: 'Faustina', serif;
+    font-size: 1.7rem;
+  }
   
   .top-nav-collapse {
       background-color: #24355C;
@@ -33,4 +38,15 @@ html{
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+  }
+
+  @media((min-width :576px){
+    #nombre{
+      font-size: 4rem;
+      font-weight: 300;
+    }
+
+    #description{
+      font-size: 0.9rem;
+    }
   }
