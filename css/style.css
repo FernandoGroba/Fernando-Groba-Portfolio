@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-color:  #37474F
+    ;
   }
   
   /* mask */
@@ -10,6 +12,8 @@ body{
   #intro {
       height: 100%;
   }
+
+  
   
   /* nav */
 
@@ -47,6 +51,15 @@ body{
     }
 
     #description{
-      font-size: 0.9rem;
+      font-size: 1.2rem; 
+      font-weight: 400;
     }
+  }
+
+  #footer{
+    color: #24355C;
+  }
+
+  #marca{
+    font-family: 'Faustina', serif;
   }

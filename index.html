@@ -22,22 +22,28 @@
 </head>
 <body>
 
- <!--Main Navigation-->
+ 
 <header>
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark scrolling-navbar fixed-top">
 
   <div class="container">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand logo-font" href="#">FErUX
-      <img src="img/WhatsApp Image 2020-03-13 at 19.32.28.jpeg" class="img-fluid img-rounded img-thumbnail" style="max-width: 128px; min-height: 85px;">
-    </a>
+    <div class="d-flex flex-column">
+      <div class="d-none d-md-block">
+        <a class="navbar-brand logo-font" href="#">FErUX
+          <img src="img/WhatsApp Image 2020-03-13 at 19.32.28.jpeg" class="img-fluid img-rounded img-thumbnail " style="max-width: 128px; min-height: 85px;">
+        </a>
+      </div>
+    </div>
 
     <!-- Collapse button -->
+  
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
       aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
+     
     </button>
 
     <!-- Collapsible content -->
@@ -49,6 +55,9 @@
           <a class="nav-link" href="#intro">Inicio
             <span class="sr-only">(current)</span>
           </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#habilidades">Habilidades</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#servicios">Servicios</a>
@@ -64,15 +73,21 @@
       <!-- Links -->
 
               <!-- Social Icon  -->
-        <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-              <a href="https://github.com/FernandoGroba" class="nav-link"><i class="fab fa-github fa-3x"></i></a>
+        <ul class="navbar-nav nav-flex-icons ">
+          <li class="nav-item align-content-between">
+              <a href="https://github.com/FernandoGroba" class="nav-link">
+                <i class="fab fa-github fa-3x "></i>
+              </a>
           </li>
           <li class="nav-item">
-              <a href="https://www.linkedin.com/in/fernandogroba/" class="nav-link"><i class="fab fa-linkedin fa-3x"></i></a>
+              <a href="https://www.linkedin.com/in/fernandogroba/" class="nav-link">
+                <i class="fab fa-linkedin fa-3x"></i>
+              </a>
           </li>
           <li class="nav-item">
-              <a href="https://www.behance.net/fernandogroba" class="nav-link"><i class="fab fa-behance fa-3x"></i></a>
+              <a href="https://www.behance.net/fernandogroba" class="nav-link">
+                <i class="fab fa-behance fa-3x"></i>
+              </a>
           </li>
         </ul>
     </div>
@@ -92,7 +107,7 @@
 
           <div class="row d-flex justify-content-center text-center">
 
-              <div class="col-md-10">
+              <div class="col-md-7">
 
                   <!-- Heading -->
                   <h2 id="nombre" class="font-weight-bold white-text pt-5 mb-2">Fernando Groba</h2>
@@ -101,8 +116,8 @@
                   <hr class="hr-light">
 
                   <!-- Description -->
-                  <h4 id="description" class="white-text my-4">Actualmente me encuentro desarrollándome como UX/UI Designer & Front end Developer continuamente. Hace un decidí darle un giro profesional a mi vida y embarcarme hacia nuevos horizontes profesionales, tomando el actual contexto como motor del cambio. 
-                    Reinventarse y re descubrirse deberían ser algo que nos propongamos mas seguido.</h4>
+                  <p id="description" class="white-text my-4 text-justify">Actualmente me encuentro desarrollándome como UX/UI Designer & Front end Developer continuamente. Hace un decidí darle un giro profesional a mi vida y embarcarme hacia nuevos horizontes profesionales, tomando el actual contexto como motor del cambio. 
+                    Reinventarse y re descubrirse deberían ser algo que nos propongamos mas seguido.</p>
                <!--    <button type="button" class="btn btn-outline-white">Read more<i class="fas fa-book ml-2"></i></button> -->
 
               </div>
@@ -118,17 +133,84 @@
 
 <!--/.Navbar-->
 </header>
-<!--Main Navigation-->
+
 
 <!--Main layout-->
 <main class="mt-5">
 
   <div class="container">
-    
-     <section id="servicios" class="text-center">
 
-      <h2 class="mb-5">Servicios</h2>
-      <div class="row d-flex justify-content-center mb-4">
+    <!-- Habilidades -->
+    <section id="habilidades" >
+      <h2 class="mb-5 text-center white-text">Habilidades</h2>
+      <p class="text-center text-white">Técnologías y herramientas para el desarrollo de aplicaciones web</p>
+      
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+
+          <i class="fab fa-html5 fa-3x purple-text"></i>
+          <h5 class="text-white">HTML5</h5>
+          <div class="progress  mb-3">
+            <div class="progress-bar" role="progressbar" style="width: 63%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+
+            </div>
+          </div>
+
+          <i class="fab fa-css3-alt fa-3x purple-text"></i>
+          <h5 class="text-white">CSS3</h5>
+          <div class="progress  mb-3">
+            <div class="progress-bar" role="progressbar" style="width: 53%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+
+            </div>
+          </div>
+
+          <i class="fab fa-js-square fa-3x purple-text"></i>
+          <h5 class="text-white">Javascript</h5>
+          <div class="progress  mb-3">
+            <div class="progress-bar" role="progressbar" style="width: 18%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+
+            </div>
+          </div>
+
+          
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+
+          <i class="fab fa-mdb fa-3x purple-text"></i>
+          <h5 class="text-white">MDBootstrap</h5>
+          <div class="progress  mb-3">
+            <div class="progress-bar" role="progressbar" style="width: 58%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+
+            </div>
+          </div>
+
+          <i class="fab fa-figma fa-3x purple-text"></i>
+          <h5 class="text-white">Figma</h5>
+          <div class="progress  mb-3">
+            <div class="progress-bar" role="progressbar" style="width: 83%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+
+          <i class="fab fa-wordpress fa-3x purple-text"></i>
+          <h5 class="text-white">Wordpress</h5>
+          <div class="progress  mb-3">
+            <div class="progress-bar" role="progressbar" style="width: 33%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <hr class="my-5 deep-purple lighten-3">
+
+    <!-- Servicios -->
+     <section id="servicios" class="text-center mt-5">
+
+      <h2 class="mb-5 text-white">Servicios</h2>
+      <div class="row d-flex justify-content-center mb-5">
         <div class="col-md-8">
           <p></p>
         </div>
@@ -138,26 +220,27 @@
 
         <div class="col-md-6 mb-1">
           <i class="fas fa-laptop-code fa-4x purple-text"></i>
-          <h4 class="my-4 font-weight-bold">Front End Developer</h4>
-          <p class="grey-text">Desarrollo de paginas y aplicaciones web</p>
+          <h4 class="my-4 font-weight-bold text-white">Front End Developer</h4>
+          <p class="text-white">Desarrollo de paginas y aplicaciones web</p>
         </div>
 
        
 
          <div class="col-md-6 mb-1">
           <i class="fas fa-sitemap fa-4x purple-text"></i>
-          <h4 class="my-4 font-weight-bold">UX Desing</h4>
-          <p class="grey-text">Diseño, prototpado, wireframes, mockups. Experiencias que generan valor en los usuario</p>
+          <h4 class="my-4 font-weight-bold text-white">UX Desing</h4>
+          <p class="white-text">Diseño, prototipado, wireframes, mockups. Experiencias que generan valor en los usuario</p>
         </div> 
 
       </div>
 
     </section> 
 
-    <hr class="my-5">
+    <hr class="my-5 deep-purple lighten-3">
 
+    <!-- Trabajos -->
     <section id="trabajos" class="text-center">
-      <h2 class="mb-5">Trabajos</h2>
+      <h2 class="mb-5 white-text">Trabajos</h2>
 
       <div class="row">
 
@@ -172,8 +255,8 @@
             </a>
           </div>
 
-          <h4 class="my-4 font-weight-bold">UX Desing</h4>
-          <p class="grey-text">Proyecto de Market Place para comercios locales, en el marco del Challenge Covid-19 by Uxers School</p>
+          <h4 class="my-4 font-weight-bold white-text">UX Desing</h4>
+          <p class="white-text">Proyecto de Market Place para comercios locales, en el marco del Challenge Covid-19 by Uxers School</p>
 
         </div>
 
@@ -187,8 +270,8 @@
             </a>
           </div>
 
-          <h4 class="my-4 font-weight-bold">UI Desing</h4>
-          <p class="grey-text">Práctica de diseño y prototipado en figma de blog de turísmo gastronómico.</p>
+          <h4 class="my-4 font-weight-bold white-text">UI Desing</h4>
+          <p class="white-text">Práctica de diseño y prototipado en figma de blog de turísmo gastronómico.</p>
         </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
@@ -201,12 +284,12 @@
             </a>
           </div>
 
-          <h4 class="my-4 font-weight-bold">Front End Developer</h4>
-          <p class="grey-text">Práctica de agencia digital en Bootstrap</p>
+          <h4 class="my-4 font-weight-bold white-text">Front End Developer</h4>
+          <p class="white-text">Práctica de agencia digital en Bootstrap</p>
         </div>
       </div>
 
-      <!-- <div class="row">
+     <!--  <div class="row" 2DA FILA DE TRABAJOS>
 
         <div class="col-lg-4 col-md-12 mb-4">
 
@@ -251,42 +334,41 @@
           <h4 class="my-4 font-weight-bold">Front End Developer</h4>
           <p class="grey-text">Práctica de agencia digital en Bootstrap</p>
         </div>
-      </div> -->
+      </div> --> -->
+  </section>
 
+    <hr class="my-5 deep-purple lighten-3">
 
-    </section>
-
-    <hr class="my-5">
-
+    <!-- Contacto -->
    <section id="contacto">
 
-       <h2 class="mb-5 font-weight-bold text-center">Contácto</h2>
+       <h2 class="mb-5 font-weight-bold text-center white-text">Contácto</h2>
 
             <div class="row">
 
            
                 <div class="col-lg-3 col-md-12 mb-5">
 
-                    <p><i class="fas fa-map fa-3x mr-2 purple-text"></i>Adrogué - Buenos Aires</p>
+                    <p class="white-text"><i class="fas fa-map fa-3x mr-2 purple-text"></i>Adrogué - Buenos Aires</p>
 
                 </div>
                 
                 <div class="col-lg-3 col-md-6 mb-5">
 
-                    <p><i class="fas fa-building fa-3x mr-2 purple-text"></i>Lun a Vie de 9:00 a 16:00</p>
+                    <p class="white-text"><i class="fas fa-building fa-3x mr-2 purple-text"></i>Lun a Vie de 9:00 a 16:00</p>
 
                 
                 </div>
                
                 <div class="col-lg-3 col-md-6 mb-5">
 
-                    <p><i class="fas fa-phone fa-3x mr-2 purple-text"></i>+ 011 63082385</p>
+                    <p class="white-text"><i class="fas fa-phone fa-3x mr-2 purple-text"></i>+ 011 63082385</p>
 
                 </div>
 
                 <div class="col-lg-3 col-md-6 mb-5">
 
-                  <p><i class="fas fa-envelope fa-3x mr-2 purple-text"></i>fergrb.ux@gmail.com</p>
+                  <p class="white-text"><i class="fas fa-envelope fa-3x mr-2 purple-text"></i>fergrb.ux@gmail.com</p>
 
                 </div>
 
@@ -299,11 +381,11 @@
 <!--Main layout-->
 
 <!--Footer-->
-<footer>
+<footer id="footer">
         <!-- Footer -->
-    <footer class="page-footer font-small unique-color-dark">
+    <footer class="page-footer font-small unique-color-dark bg-dark ">
 
-      <div class="col-md-12 text-center mt-3 ">
+      <div class="col-md-12 text-center pt-3 ">
         
         <a href="https://github.com/FernandoGroba" class="fb-ic ml-0">
             <i class="fab fa-github white-text mr-4 fa-3x"> </i>
@@ -321,15 +403,13 @@
       </div>
 
             <!--Footer Links-->
-      <div class="container mt-5 text-center ">
+      <div class="container mt-3 text-center ">
         <div class="row mt-3">
 
             <!--First column-->
             <div class="col-md-12 text-center mb-4">
-                <h6 class="text-uppercase font-weight-bold">
-                    <strong>FErUX</strong>
-                </h6>
-                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <h3 style="font-family: 'Faustina', serif;">FErUX</h3>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 80px;">
                 <p>Desarrollo, diseño y prototipado de aplicaciones web, centrados en el usuario</p>
             </div>
             <!--/.First column-->
