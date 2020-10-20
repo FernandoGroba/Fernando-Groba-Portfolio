@@ -35,6 +35,10 @@ body{
         background-color: #24355C;
       }
     }
+
+    .icon-color{
+      color:  #8f6ee2 ;
+    }
   
   #intro {
       background: url(../img/IMG_20200418_241002841.jpg)no-repeat center center fixed;
