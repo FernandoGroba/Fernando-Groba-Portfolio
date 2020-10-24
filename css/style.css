@@ -1,7 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-color:  #37474F
-    ;
+    background-color:  #37474F;
   }
   
   /* mask */
@@ -9,7 +8,14 @@ body{
   html,
   body,
   header,
-  #intro {
+  #intro{
+      height: 100%;
+  }
+
+  html,
+  body,
+  header,
+  #intro-yolocal{
       height: 100%;
   }
 
@@ -21,6 +27,8 @@ body{
     font-family: 'Faustina', serif;
     font-size: 1.7rem;
   }
+
+ 
   
   .top-nav-collapse {
       background-color: #24355C;
@@ -29,18 +37,24 @@ body{
       .navbar:not(.top-nav-collapse) {
         background-color: #24355C;
       }
+
+      
     }
     @media (min-width: 800px) and (max-width: 850px) {
       .navbar:not(.top-nav-collapse) {
         background-color: #24355C;
       }
+
+      
     }
+
+  
 
     .icon-color{
       color:  #8f6ee2 ;
     }
   
-  #intro {
+  #intro{
       background: url(../img/IMG_20200418_241002841.jpg)no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -48,7 +62,16 @@ body{
       background-size: cover;
   }
 
-  @media((min-width :576px){
+  #intro-yolocal{
+   background: url(../img/portada-yoLocal.jpeg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+  }
+
+
+  @media(min-width :576px){
     #nombre{
       font-size: 4rem;
       font-weight: 300;
@@ -66,4 +89,26 @@ body{
 
   #marca{
     font-family: 'Faustina', serif;
+  }
+
+  /* estilos para pagina yo local */
+
+ .card-color{
+   background:#BE5A00;
+ }
+.body-yolocal{
+  background-color: #ffffff;
+}
+
+.heading{
+  color: #BE5A00;
+}
+
+  #prototipado{
+    height: 400px;
+    width: 100%;
+    background: url(../img/mockups-test-comerciante.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
