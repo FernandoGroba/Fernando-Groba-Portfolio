@@ -128,14 +128,14 @@ font-size: 4rem;
     
   }
 
-  @media all (max-width :576px){
+  @media  (max-width :576px){
     #nombre{
       font-size: 2rem;
       font-weight: 300;
     }
 
     #description{
-      font-size:1.2rem; 
-      font-weight: 400;
+      font-size: 0.9rem; 
+      font-weight: 300;
     }
   }
