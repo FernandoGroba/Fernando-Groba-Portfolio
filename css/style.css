@@ -101,7 +101,7 @@ font-size: 4rem;
 
   @media (min-width: 992px){
     #nombre{
-      font-size: 4.5rem;
+      font-size: 4rem;
     }
 
     #description{
@@ -113,6 +113,10 @@ font-size: 4rem;
     .navbar:not(.top-nav-collapse) {
       background-color: #24355C;
     }
+    #nombre{
+      font-size: 4rem;
+    }
+
 
     
   }
