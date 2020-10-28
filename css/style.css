@@ -19,6 +19,13 @@ body{
       height: 100%;
   }
 
+  html,
+  body,
+  header,
+  #intro-tenedorviajero{
+      height: 100%;
+  }
+  
   
   
   /* nav */
@@ -60,6 +67,15 @@ font-size: 4rem;
    background-size: cover;
   }
 
+  #intro-tenedorviajero{
+    background: url(../img/Baner.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   }
+ 
+
 
   
 
@@ -92,6 +108,42 @@ font-size: 4rem;
     background-position: center;
     background-size: cover;
   }
+
+  /* Estilos para Tenedor Viajero */
+  .heading-tenedor{
+    color: #E5D8BF;
+  }
+
+  .cuadrado1{
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    background: #E5D8BF;
+  }
+
+  .cuadrado2{
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    background: #504141;
+  }
+  
+  .cuadrado3{
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    background: #A8C3E6;
+  }
+
+  .cuadrado4{
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    background: #212524;
+  }
+  
+  
+  
 
 
 
