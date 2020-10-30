@@ -1,190 +1,168 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    background-color:  #37474F;
-  }
-  
-  /* mask */
-  
-  html,
-  body,
-  header,
-  #intro{
-      height: 100%;
-  }
-
-  html,
-  body,
-  header,
-  #intro-yolocal{
-      height: 100%;
-  }
-
-  html,
-  body,
-  header,
-  #intro-tenedorviajero{
-      height: 100%;
-  }
-  
-  
-  
-  /* nav */
-
-  .logo-font{
-    font-family: 'Faustina', serif;
-    font-size: 1.7rem;
-  }
-
-  #nombre{
-font-size: 4rem;
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #37474f;
 }
- 
-  
-  .top-nav-collapse {
-      background-color: #24355C;
-    }
- 
 
-  
+/* mask */
 
-    .icon-color{
-      color:  #8f6ee2 ;
-    }
-  
-  #intro{
-      background: url(../img/IMG_20200418_241002841.jpg)no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-  }
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
 
-  #intro-yolocal{
-   background: url(../img/portada-yoLocal.jpeg) no-repeat center center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-  }
+html,
+body,
+header,
+#intro-yolocal {
+  height: 100%;
+}
 
-  #intro-tenedorviajero{
-    background: url(../img/Baner.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   }
- 
+html,
+body,
+header,
+#intro-tenedorviajero {
+  height: 100%;
+}
 
+/* nav */
 
-  
+.logo-font {
+  font-family: "Faustina", serif;
+  font-size: 1.7rem;
+}
 
-  #footer{
-    color: #24355C;
-  }
+#nombre {
+  margin-top: 50px;
+  font-size: 4rem;
+}
 
-  #marca{
-    font-family: 'Faustina', serif;
-  }
+.top-nav-collapse {
+  background-color: #24355c;
+}
 
-  /* estilos para pagina yo local */
+.icon-color {
+  color: #8f6ee2;
+}
 
- .card-color{
-   background:#BE5A00;
- }
-.body-yolocal{
+#intro {
+  background: url(../img/IMG_20200418_241002841.jpg) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#intro-yolocal {
+  background: url(../img/portada-yoLocal.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#intro-tenedorviajero {
+  background: url(../img/Baner.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#footer {
+  color: #24355c;
+}
+
+#marca {
+  font-family: "Faustina", serif;
+}
+
+/* estilos para pagina yo local */
+
+.card-color {
+  background: #be5a00;
+}
+.body-yolocal {
   background-color: #ffffff;
 }
 
-.heading{
-  color: #BE5A00;
+.heading {
+  color: #be5a00;
 }
 
-  #prototipado{
-    height: 400px;
-    width: 100%;
-    background: url(../img/mockups-test-comerciante.jpeg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+#prototipado {
+  height: 400px;
+  width: 100%;
+  background: url(../img/mockups-test-comerciante.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Estilos para Tenedor Viajero */
+.heading-tenedor {
+  color: #e5d8bf;
+}
+
+.cuadrado1 {
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  background: #e5d8bf;
+}
+
+.cuadrado2 {
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  background: #504141;
+}
+
+.cuadrado3 {
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  background: #a8c3e6;
+}
+
+.cuadrado4 {
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  background: #212524;
+}
+
+@media (min-width: 992px) {
+  #nombre {
+    font-size: 4rem;
   }
 
-  /* Estilos para Tenedor Viajero */
-  .heading-tenedor{
-    color: #E5D8BF;
+  #description {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355c;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355c;
+  }
+}
+
+@media (max-width: 576px) {
+  #nombre {
+    font-size: 2rem;
+    font-weight: 300;
   }
 
-  .cuadrado1{
-    margin: 5px;
-    height: 100px;
-    width: 100px;
-    background: #E5D8BF;
+  #description {
+    font-size: 0.9rem;
+    font-weight: 300;
   }
-
-  .cuadrado2{
-    margin: 5px;
-    height: 100px;
-    width: 100px;
-    background: #504141;
-  }
-  
-  .cuadrado3{
-    margin: 5px;
-    height: 100px;
-    width: 100px;
-    background: #A8C3E6;
-  }
-
-  .cuadrado4{
-    margin: 5px;
-    height: 100px;
-    width: 100px;
-    background: #212524;
-  }
-  
-  
-  
-
-
-
-
-
-
-
-  @media (min-width: 992px){
-    #nombre{
-      font-size: 4rem;
-    }
-
-    #description{
-      font-size: 1.5rem;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse) {
-      background-color: #24355C;
-    }
-   
-
-    
-  }
-  @media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-      background-color: #24355C;
-    }
-
-    
-  }
-
-  @media  (max-width :576px){
-    #nombre{
-      font-size: 2rem;
-      font-weight: 300;
-    }
-
-    #description{
-      font-size: 0.9rem; 
-      font-weight: 300;
-    }
-  }
+}

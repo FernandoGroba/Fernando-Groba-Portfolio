@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="css/mdb.min.css">
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
+          <!--CDN Data Aos ScrollReveal  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   
   
 
@@ -101,7 +103,7 @@
 
 </nav>
 
-<!-- mask -->
+
 <!--Mask-->
 <div id="intro" class="view">
 
@@ -114,14 +116,22 @@
               <div class="col-md-7">
 
                   <!-- Heading -->
-                  <h2 id="nombre" class="font-weight-bold white-text pt-5 mb-2">Fernando Groba</h2>
+                  <div data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1500">
+                    <h2 id="nombre" class="font-weight-bold white-text pt-5 ">Fernando Groba</h2>
 
-                  <!-- Divider -->
-                  <hr class="hr-light">
+                    <!-- Divider -->
+                     <hr class="hr-light">
+                
+                 </div>
+
+
+                 
 
                   <!-- Description -->
-                  <h5 id="description" class="white-text my-4 text-justify">Soy una persona curiosa, que busca crecer en lo personal y profesional continuamente. Me gusta brindar mi ayuda a las personas, porque todos tienen algo que enseñarme. Me encanta el diseño y la tecnología y disfruto muchísimo la música, el automovilismo y el fútbol. Hace dos años empecé a buscar nuevos horizontes y desafíos profesionales y a fines del 2019 conocí el diseño de experiencia de usuario y me enamoré de la disciplina, abocándome de lleno en ella. Además los últimos dos meses los dedique al estudio de lenguajes de programación. Creo que reinventarse debería ser algo que nos propongamos más seguido.  Bienvenidos a mi portfolio y espero lo disfruten tanto como yo lo hice al desarrollarlo
-                  </h5>
+                  <div data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1500">
+                    <h5 id="description" class="white-text my-4 text-justify">Soy una persona curiosa, que busca crecer en lo personal y profesional continuamente. Me gusta brindar mi ayuda a las personas, porque todos tienen algo que enseñarme. Me encanta el diseño y la tecnología y disfruto muchísimo la música, el automovilismo y el fútbol. Hace dos años empecé a buscar nuevos horizontes y desafíos profesionales y a fines del 2019 conocí el diseño de experiencia de usuario y me enamoré de la disciplina, abocándome de lleno en ella. Además los últimos dos meses los dedique al estudio de lenguajes de programación. Creo que reinventarse debería ser algo que nos propongamos más seguido.  Bienvenidos a mi portfolio y espero lo disfruten tanto como yo lo hice al desarrollarlo
+                    </h5>
+                  </div>
                <!--    <button type="button" class="btn btn-outline-white">Read more<i class="fas fa-book ml-2"></i></button> -->
 
               </div>
@@ -152,17 +162,17 @@
       <div class="row">
         <div class="col-sm-12 col-md-6">
 
-        <div class="text-center">
+        <div class="text-center" data-aos="zoom-out-right" data-aos-delay="400">
           <i class="fab fa-html5 fa-3x icon-color"></i>
           <h5 class="text-white">HTML5</h5>
         </div>
 
-        <div class="text-center">
+        <div class="text-center"  data-aos="zoom-out-right" data-aos-delay="500">
           <i class="fab fa-css3-alt fa-3x icon-color"></i>
           <h5 class="text-white">CSS3</h5>
         </div>
         
-        <div class="text-center">
+        <div class="text-center"  data-aos="zoom-out-right" data-aos-delay="600">
           <i class="fab fa-js-square fa-3x icon-color"></i>
           <h5 class="text-white">Javascript</h5>
         </div>
@@ -173,17 +183,17 @@
 
         <div class="col-sm-12 col-md-6">
 
-        <div class="text-center">
+        <div class="text-center" data-aos="zoom-out-left" data-aos-delay="400">
             <i class="fab fa-mdb fa-3x icon-color"></i>
             <h5 class="text-white">MDBootstrap</h5>
         </div>
 
-        <div class="text-center">
+        <div class="text-center" data-aos="zoom-out-left" data-aos-delay="500">
           <i class="fab fa-figma fa-3x icon-color"></i>
           <h5 class="text-white">Figma</h5>
         </div> 
 
-        <div class="text-center">
+        <div class="text-center" data-aos="zoom-out-left" data-aos-delay="600">
           <i class="fab fa-wordpress fa-3x icon-color"></i>
           <h5 class="text-white">Wordpress</h5>
         </div>  
@@ -207,7 +217,7 @@
 
       <div class="row">
 
-        <div class="col-md-6 mb-1">
+        <div class="col-md-6 mb-5" data-aos="flip-up" data-aos-duration="1500">
           <i class="fas fa-laptop-code fa-3x icon-color"></i>
           <h4 class="my-4 font-weight-bold text-white">Front End Developer</h4>
           <p class="text-white">Desarrollo de paginas y aplicaciones web</p>
@@ -215,7 +225,7 @@
 
        
 
-         <div class="col-md-6 mb-1">
+         <div class="col-md-6 mb-5" data-aos="flip-up" data-aos-duration="1500">
           <i class="fas fa-sitemap fa-3x icon-color"></i>
           <h4 class="my-4 font-weight-bold text-white">UX Design</h4>
           <p class="white-text">Diseño, prototipado, wireframes, mockups. Experiencias que generan valor en los usuario</p>
@@ -233,49 +243,63 @@
 
       <div class="row">
 
+        <!-- UX -->
         <div class="col-lg-4 col-md-6 mb-4">
 
-          <div class="view overlay z-depth-1-half">
+          <div class="view overlay z-depth-1-half" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
 
             <img src="img/svg/LOGO-YOLOCAL.png" class="img-fluid" style="min-height: 193.44px">
 
             <a href="yolocal.html">
               <div class="mask rgba-white-slight"></div>
             </a>
+
+            <h4 class="my-4 font-weight-bold white-text">UX Design</h4>
+            <p class="white-text">Proyecto de MarketPlace para comercios locales, en el marco del Challenge Covid-19 by Uxers School</p>
           </div>
 
-          <h4 class="my-4 font-weight-bold white-text">UX Design</h4>
-          <p class="white-text">Proyecto de MarketPlace para comercios locales, en el marco del Challenge Covid-19 by Uxers School</p>
+         </div>
 
-        </div>
 
+         <!-- UI -->
         <div class="col-lg-4 col-md-6 mb-4">
-          <div class="view overlay z-depth-1-half">
+          <div class="view overlay z-depth-1-half"  data-aos="fade-up"
+          data-aos-offset="300" data-aos-easing="ease-in-sine"  style="min-height: 357px">
 
             <img src="img/svg/tenedor viajero.png" class="img-fluid"  style="min-height: 193.44px;">
 
             <a href="tenedorviajero.html">
               <div class="mask rgba-white-slight"></div>
             </a>
+            <h4 class="my-4 font-weight-bold white-text">UI Design</h4>
+            <p class="white-text">Práctica de diseño y prototipado en figma de blog de turísmo gastronómico.</p>
           </div>
 
-          <h4 class="my-4 font-weight-bold white-text">UI Design</h4>
-          <p class="white-text">Práctica de diseño y prototipado en figma de blog de turísmo gastronómico.</p>
+        
         </div>
 
+
+        <!-- Dev -->
         <div class="col-lg-4 col-md-6 mb-4">
-          <div class="view overlay z-depth-1-half">
+
+          <div class="view overlay z-depth-1-half"  data-aos="fade-left"
+          data-aos-easing="ease-in-sine"
+          data-aos-offset="300"
+          style="min-height: 357px">
 
             <img src="img/Agencia digital.png" class="img-fluid"style="min-height: 193.44px;">
 
             <a href="https://fernandogroba.github.io/Agencia-Demo/" target="_blank">
               <div class="mask rgba-white-slight"></div>
             </a>
+            <h4 class="my-4 font-weight-bold white-text">Front End Developer</h4>
+            <p class="white-text">Práctica de agencia digital en Bootstrap</p>
           </div>
 
-          <h4 class="my-4 font-weight-bold white-text">Front End Developer</h4>
-          <p class="white-text">Práctica de agencia digital en Bootstrap</p>
-        </div>
+         </div>
+
       </div>
 
      <!--  <div class="row" 2DA FILA DE TRABAJOS>
@@ -324,16 +348,19 @@
           <p class="grey-text">Práctica de agencia digital en Bootstrap</p>
         </div>
       </div> --> 
-  </section>
+    </section>
 
     <hr class="my-5 deep-purple lighten-3">
 
     <!-- Contacto -->
    <section id="contacto">
 
-       <h2 class="mb-5 font-weight-bold text-center white-text">Contácto</h2>
+            <h2 class="mb-5 font-weight-bold text-center white-text">Contácto</h2>
 
-            <div class="row">
+            <div class="row" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-delay="500">
+
+            
 
            
                 <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
@@ -447,13 +474,10 @@
     
   </script>
 
-  <!-- scroll reveal -->
- <!--  <script>
-    window.sr = ScrollReveal();
-    sr.reveal('.navbar', {
-      duration: 2000,
-      origin: botton
-    })
-  </script> -->
+  <!-- Data Aos ScrollReveal -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
 </body>
 </html>
