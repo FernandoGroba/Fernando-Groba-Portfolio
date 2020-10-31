@@ -148,14 +148,25 @@ header,
   .navbar:not(.top-nav-collapse) {
     background-color: #24355c;
   }
+
+  #nombre {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  #description {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
 }
+
 @media (min-width: 800px) and (max-width: 850px) {
   .navbar:not(.top-nav-collapse) {
     background-color: #24355c;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 500px) {
   #nombre {
     font-size: 2rem;
     font-weight: 300;
