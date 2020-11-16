@@ -26,6 +26,17 @@ header,
   height: 100%;
 }
 
+html,
+body,
+header,
+#intro-musicommerce {
+  height: 100%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
 /* nav */
 
 .logo-font {
@@ -69,6 +80,15 @@ header,
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#intro-musicommerce {
+  background: url(../img/background1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 }
 
 #footer {
@@ -133,6 +153,23 @@ header,
   width: 100px;
   background: #212524;
 }
+
+
+/* Estilos para musicommerce */
+.body-musicommerce {
+  font-family: 'Blinker', sans-serif;
+}
+
+.descripcion-mc {
+  letter-spacing: 2px;
+  
+}
+
+.btn-link {
+  width: 40%;
+}
+
+
 
 @media (min-width: 992px) {
   #nombre {
