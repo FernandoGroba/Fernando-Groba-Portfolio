@@ -89,7 +89,6 @@ header,
   -o-background-size: cover;
   background-size: cover;
 }
-}
 
 #footer {
   color: #24355c;
@@ -154,22 +153,19 @@ header,
   background: #212524;
 }
 
-
 /* Estilos para musicommerce */
 .body-musicommerce {
-  font-family: 'Blinker', sans-serif;
+  font-family: "Blinker", sans-serif;
 }
 
 .descripcion-mc {
   letter-spacing: 2px;
-  
 }
 
 .btn-link {
   width: 40%;
+  border-radius: 8px;
 }
-
-
 
 @media (min-width: 992px) {
   #nombre {
@@ -194,6 +190,14 @@ header,
   #description {
     font-size: 0.9rem;
     font-weight: 300;
+  }
+  .titular {
+    font-size: 1rem;
+  }
+
+  .btn-link {
+    width: 60%;
+    border-radius: 8px;
   }
 }
 
