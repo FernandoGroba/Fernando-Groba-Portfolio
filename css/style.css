@@ -162,10 +162,10 @@ header,
   letter-spacing: 2px;
 }
 
-/* .btn-link {
-  width: 60%;
+/.btn-link {
+  width: 40%;
   border-radius: 8px;
-} */
+}
 
 @media (min-width: 992px) {
   #nombre {
